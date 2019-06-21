@@ -5,7 +5,7 @@ import seaborn as sns
 import sklearn
 import os
 
-df = pd.read_csv('weatherHistory.csv')
+df = pd.read_csv('/opt/weatherHistory.csv')
 
 df.columns = ['Date', 'Summary', 'Prec Type', 'Temp', 'App Temp', 'Humidity', 'Wind Speed', 'Wind Angle', 'Visibility', 'Loud Cover', 'Pressure', 'Sum']
 
